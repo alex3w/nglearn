@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="MyModule">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+<!-- 法1：使用元素：推荐 当需要创建带有自己的模板的指令时，使用元素名称的方式-->
+<hello></hello>
+
+<!-- 法2：使用属性：推荐 当需要为已有的HTML标签增加功能时，使用属性的方式-->
+<div hello></div>
+
+<!-- 法3:使用样式类 -->
+<div class="hello"></div>
+
+<!-- 法4 -->
+<!-- directive:hello -->
+</body>
+<script type="text/javascript" src="../../../bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="directives/HelloAngular_Directive.js"></script>
+</html>

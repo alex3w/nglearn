@@ -1,0 +1,29 @@
+{
+  "name": "X-Admin Webapp",
+  "version": "1.0",
+  "description": "Admin template with Bootstrap and AngularJS.",
+  "keywords": [
+    "AngularJS",
+    "css",
+    "js",
+    "sass",
+    "front-end",
+    "framework",
+    "webapp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex3w/nglearn.git"
+  },
+  "author": "Alex3w",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-htmlmin": "^1.5.0",
+    "grunt-contrib-uglify": "^1.0.0",
+  }
+}
